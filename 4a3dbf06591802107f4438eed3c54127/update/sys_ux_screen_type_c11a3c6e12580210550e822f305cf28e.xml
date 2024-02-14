@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type">
+    <sys_ux_screen_type action="INSERT_OR_UPDATE">
+        <description/>
+        <name>Login</name>
+        <sys_class_name>sys_ux_screen_type</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-02-14 13:21:58</sys_created_on>
+        <sys_id>c11a3c6e12580210550e822f305cf28e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Login</sys_name>
+        <sys_package display_value="Safety" source="x_snc_safety">4a3dbf06591802107f4438eed3c54127</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">4a3dbf06591802107f4438eed3c54127</sys_scope>
+        <sys_update_name>sys_ux_screen_type_c11a3c6e12580210550e822f305cf28e</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-14 13:21:58</sys_updated_on>
+    </sys_ux_screen_type>
+    <sys_translated_text action="delete_multiple" query="documentkey=c11a3c6e12580210550e822f305cf28e"/>
+</record_update>

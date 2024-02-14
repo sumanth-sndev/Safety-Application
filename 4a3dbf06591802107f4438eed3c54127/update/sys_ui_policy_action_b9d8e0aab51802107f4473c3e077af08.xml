@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>state</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-14 12:06:37</sys_created_on>
+        <sys_id>b9d8e0aab51802107f4473c3e077af08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>state</sys_name>
+        <sys_package display_value="Safety" source="x_snc_safety">4a3dbf06591802107f4438eed3c54127</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">4a3dbf06591802107f4438eed3c54127</sys_scope>
+        <sys_update_name>sys_ui_policy_action_b9d8e0aab51802107f4473c3e077af08</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-14 12:06:37</sys_updated_on>
+        <table>x_snc_safety_issues</table>
+        <ui_policy display_value="Make fields read-only when Issue is Closed">2dd8e0aab51802107f4473c3e077af04</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

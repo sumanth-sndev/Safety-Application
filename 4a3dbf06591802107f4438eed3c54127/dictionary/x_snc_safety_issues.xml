@@ -10,8 +10,9 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="Due date" max_length="40" name="due_date" type="glide_date"/>
         <element attributes="encode_utf8=false" label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
-        <element attributes="encode_utf8=false" label="Opened by" max_length="32" name="opened_by" reference="sys_user" type="reference"/>
+        <element label="Notes" max_length="40" name="notes" type="journal"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="encode_utf8=false" default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Opened by" max_length="32" name="opened_by" reference="sys_user" type="reference" use_dynamic_default="true"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Priority" max_length="40" name="priority" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Critical" sequence="0" value="critical"/>
@@ -21,7 +22,7 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Short description" max_length="69" name="short_description" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="state" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="open" label="State" max_length="40" name="state" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Open" sequence="0" value="open"/>
                 <element inactive_on_update="false" label="Pending" sequence="1" value="pending"/>

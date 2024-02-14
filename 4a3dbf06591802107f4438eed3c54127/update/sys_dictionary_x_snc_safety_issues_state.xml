@@ -11,7 +11,7 @@
         <column_label>State</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>open</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -53,7 +53,7 @@
         <sys_scope display_value="Safety">4a3dbf06591802107f4438eed3c54127</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_safety_issues_state</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-13 15:16:00</sys_updated_on>
+        <sys_updated_on>2024-02-14 11:56:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
