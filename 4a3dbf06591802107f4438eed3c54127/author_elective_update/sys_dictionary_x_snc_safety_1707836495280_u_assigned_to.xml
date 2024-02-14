@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_assigned_to" table="x_snc_safety_1707836495280">
+        <active>true</active>
+        <array>false</array>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=Assigned to</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Assigned to</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_assigned_to</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>x_snc_safety_1707836495280</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-13 15:01:38</sys_created_on>
+        <sys_id>27478cde591802107f4438eed3c54108</sys_id>
+        <sys_name>Assigned to</sys_name>
+        <sys_package display_value="Safety" source="x_snc_safety">4a3dbf06591802107f4438eed3c54127</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">4a3dbf06591802107f4438eed3c54127</sys_scope>
+        <sys_update_name>sys_dictionary_x_snc_safety_1707836495280_u_assigned_to</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-13 15:01:38</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Safety">4a3dbf06591802107f4438eed3c54127</application>
+        <file_path/>
+        <instance_id>94cb66ca47908e906fbd2535126d43a6</instance_id>
+        <instance_name>nowlearning-nlinst01479860-0001</instance_name>
+        <name>sys_dictionary_x_snc_safety_1707836495280_u_assigned_to</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_assigned_to" table="x_snc_safety_1707836495280"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true,import_attribute_name=Assigned to</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Assigned to</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_assigned_to</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_snc_safety_1707836495280</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-13 15:01:38</sys_created_on><sys_id>27478cde591802107f4438eed3c54108</sys_id><sys_name>Assigned to</sys_name><sys_package display_value="Safety" source="x_snc_safety">4a3dbf06591802107f4438eed3c54127</sys_package><sys_policy/><sys_scope display_value="Safety">4a3dbf06591802107f4438eed3c54127</sys_scope><sys_update_name>sys_dictionary_x_snc_safety_1707836495280_u_assigned_to</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-13 15:01:38</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>746664489</payload_hash>
+        <record_name>Safety 1707836495280.Assigned to</record_name>
+        <reverted_from/>
+        <source>ce3dbf06591802107f4438eed3c54129</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-13 15:01:38</sys_created_on>
+        <sys_id>7f478cde591802107f4438eed3c5412a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18da2fce3da0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-13 15:01:38</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>f3478cde061802103310f4bae491c32a</update_guid>
+        <update_guid_history>f3478cde061802103310f4bae491c32a:746664489</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-13 15:16:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>259c9e1e5d9945de882e892d597655e4</sys_id>
+        <sys_metadata>27478cde591802107f4438eed3c54108</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assigned to</sys_name>
+        <sys_package display_value="Safety" source="x_snc_safety">4a3dbf06591802107f4438eed3c54127</sys_package>
+        <sys_parent display_value="">af474cde591802107f4438eed3c54180</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Safety">4a3dbf06591802107f4438eed3c54127</sys_scope>
+        <sys_scope_delete display_value="">8141d750cb0449bc83d0e933cae004b9</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_snc_safety_1707836495280_u_assigned_to</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_snc_safety_1707836495280_u_assigned_to">7f478cde591802107f4438eed3c5412a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-13 15:16:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
